@@ -5,7 +5,7 @@ body, html {
 
 .top {
 	/* The image used */
-  background-image: url("img/TopBar.png");
+  background-image: url("TopBar.png");
 
   /* Full height */
   height: 10%; 
@@ -18,7 +18,7 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: url("img/bg.png");
+  background-image: url("bg.png");
 
   /* Full height */
   height: 100%; 
