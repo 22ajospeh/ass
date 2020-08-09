@@ -46,6 +46,13 @@ body, html {
 	font-size: 25px;
 	border-radius: 20px;
 	margin-left: 3%;
+	box-shadow:
+  0 14.5px 6.7px rgba(0, 0, 0, 0.018),
+  0 22.7px 17px rgba(0, 0, 0, 0.024),
+  0 29.5px 34.7px rgba(0, 0, 0, 0.03),
+  0 42.7px 71.5px rgba(0, 0, 0, 0.038),
+  0 100px 196px rgba(0, 0, 0, 0.07)
+;
 }
 
 .thicc {
@@ -69,6 +76,13 @@ body, html {
 	font-size: 25px;
 	border-radius: 20px;
 	margin-left: 1%;
+	box-shadow:
+  0 14.5px 6.7px rgba(0, 0, 0, 0.018),
+  0 22.7px 17px rgba(0, 0, 0, 0.024),
+  0 29.5px 34.7px rgba(0, 0, 0, 0.03),
+  0 42.7px 71.5px rgba(0, 0, 0, 0.038),
+  0 100px 196px rgba(0, 0, 0, 0.07)
+;
 }
 
 .butt2 input{
