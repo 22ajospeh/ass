@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>Andre Scheduling Software</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link rel="icon" href="img/icon.png">
+  </head>
+  
+
+  <body>
+
+  	<div class="top"></div>
+
+  	<div class="bg">
+  
+	  	<form class="form">
+
+	  		<input type="text" id="AddTask" name="AddTask" placeholder="Add Task" autocomplete="off">
+	  		<input type="text" id="Priority" name="Priority" placeholder="Priority" autocomplete="off">
+	  		<input type="text" id="EstTime" name="EstTime" placeholder="Est. Time" autocomplete="off">
+	  		<div class="butt">
+	  			<input type="button" id="add" value="Add">
+	  		</div>
+	  		<div class="butt2">
+	  			<input type="button" id="clear" value="Clear All"> 
+	  		</div>
+	  		
+
+		</form> 
+
+		<div class="leftContent">
+
+			<ul id="list" class="ToDo"></ul>
+
+			<h1>Completed Tasks</h1> 
+
+			<ul id="list2" class="ToDo"></ul>
+
+		</div>
+
+		<div class="rightContent">
+			<h1>Calendar</h1> 
+			<div class="square">
+				<div id="leftContainer">
+					
+				</div>
+			    <div id="container">
+
+			    </div>
+			  <!--
+				<ul id="list3">
+
+				</ul>
+
+			-->
+			</div>
+		</div>
+
+	</div>
+
+	<script src="https://unpkg.com/interactjs/dist/interact.min.js"></script>
+	<script src="background2.js"></script>
+	
+  </body>
+</html>
+
+
+
